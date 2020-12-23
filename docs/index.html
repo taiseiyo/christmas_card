@@ -14,7 +14,8 @@
 	  function b()
 	  {
 	    x++;
-	    document.all.a.style.fontSize=x+'px';
+	    str_id = document.getElementById("strings");
+	    str_id.style.fontSize = x + "px";
 	    if(x<45){
 	      setTimeout("b()", 50);}
 	  }
@@ -22,7 +23,7 @@
 	</script>
 	
 	
-	<div id="a">
+	<div id="strings">
 	  Merry Christmas!!
 	  Thank you as always
 	</div>
