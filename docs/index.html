@@ -3,33 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css" />
     <title>Merry Christmas</title>
   </head>
   
   <body onload="b()">
-    <div class="sub">
-      <div id="root">
-	<script language="JavaScript">
-	  let x = 0;
-	  function b()
-	  {
-	    x++;
-	    str_id = document.getElementById("strings");
-	    str_id.style.fontSize = x + "px";
-	    if(x<45){
-	      setTimeout("b()", 50);}
-	  }
-	 
-	</script>
+    <div class="main">
+      <div class="sub">
+	<div id="root">
+	  
+	  <script language="JavaScript">
+	    let x = 0;
+	    function b()
+	    {
+	      x++;
+	      str_id = document.getElementById("strings");
+	      str_id.style.fontSize = x + "px";
+	      if(x<45){
+		setTimeout("b()", 50);}
+	    }	    
+	  </script>
 	
 	
-	<div id="strings">
+	<div id="strings" class="css_strings">
 	  Merry Christmas!!
+	  
 	  Thank you as always
 	</div>
+	  
+	<div class="snow">●</div>
 	
-      </div>	
+	</div>	
+      </div>
     </div>
+
   </body>
   
 </html>
