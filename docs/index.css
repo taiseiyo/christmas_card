@@ -4,7 +4,7 @@ body{
     margin:0;
 }
 .main {
-    background-image: url("https://data.ac-illust.com/data/thumbnails/f7/f797153b189d1efae740c995668e1a43_t.jpeg");
+    background-image: url("https://raw.githubusercontent.com/taiseiyo/christmas_card/master/static/snow.jpeg");
     background-repeat:no-repeat;
     background-size:cover;
     height:100%;
